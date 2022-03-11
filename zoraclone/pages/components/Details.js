@@ -2,7 +2,7 @@ import React from 'react'
 
 function Details() {
   return (
-    <div class="text-center m-7">
+    <div class="text-center  bg-slate-100 p-8">
       <button class="border-2">ENTER YOUR DETAILS HERE</button>
 
       <div id="myModal" class="hidden overflow-auto">
@@ -12,6 +12,8 @@ function Details() {
         </div>
 
       </div>
+
+      
     </div>
 
 

@@ -6,6 +6,7 @@ import Image from './components/Image'
 import Title_Info from './components/Title_Info'
 import Scorebord from './components/Scorebord'
 import Detail from './components/Details'
+import Footer from './components/Footer'
 export default function Home() {
   return (
     <div>
@@ -22,6 +23,7 @@ export default function Home() {
         <Image />
         <Title_Info />
         <Detail />
+        <Footer />
 
       </div>
     </div>
