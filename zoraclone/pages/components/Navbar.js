@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <ul class="flex w-full bg-slate-500">
+    <ul class="flex w-full bg-slate-500 fixed">
       <li class="mr-6 ml-6  my-4 text-lg">
         <a href="#">Explore</a>
       </li>
@@ -19,7 +19,7 @@ function Navbar() {
         <input class="rounded-lg px-2" type="text" placeholder="Search The Metaverse"></input>
       </li>
       <li class="mr-6">
-        <button class= "my-2 bg-neutral-900 hover:bg-neutral-700 text-white font-bold py-2 px-4 border-b-4 border-black hover:border-blue-500 rounded">Button</button>
+        <button class= " text-right my-2 bg-neutral-900 hover:bg-neutral-700 text-white font-bold py-2 px-4 border-b-4 border-black hover:border-blue-500 rounded">Button</button>
       </li> 
     </ul>
 
