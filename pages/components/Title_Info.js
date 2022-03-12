@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Scorebord from './Scorebord'
 
 function Title_Info() {
