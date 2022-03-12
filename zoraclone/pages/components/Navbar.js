@@ -16,15 +16,12 @@ function Navbar() {
         <a href="#">Zine</a>
       </li>
       <li class="mr-6 my-4 text-lg">
-        <input class="rounded-lg px-2" type="text" placeholder="Search The Metaverse"></input>
+        <input class="rounded-lg px-2 w-96 h-8" type="text" placeholder="Search The Metaverse"></input>
       </li>
       <li class="mr-6">
-        <button class= " text-right my-2 bg-neutral-900 hover:bg-neutral-700 text-white font-bold py-2 px-4 border-b-4 border-black hover:border-blue-500 rounded">Button</button>
+        <button class= " text-right my-2 bg-neutral-800 hover:bg-neutral-700 text-white font-bold py-2 px-4 border-b-4 ml-80 border-black hover:border-blue-500 rounded">Like Us</button>
       </li> 
     </ul>
-
-    
-
   )
 }
 
