@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { useRouter } from 'next/router'
 
+import Link from 'next/link';
+
 function Details() {
   const [usedisplay, setusediplay] = useState(false);
   const enterd = () => {
@@ -10,9 +12,12 @@ function Details() {
 
   const router = useRouter();
   return (
-    <div className="text-center  bg-slate-300 p-8">
+    <div className="  bg-slate-300 p-8">
       
       <button onClick={enterd} className= " text-right my-2 bg-neutral-900 hover:bg-neutral-700 text-white font-bold py-2 px-4 border-b-4 border-black hover:border-blue-500 rounded">LOG IN/SIGN UP</button>
+      <Link href="/productdetails">
+      <button className= " text-right my-2 bg-neutral-900 hover:bg-neutral-700 text-white font-bold ml-4 py-2 px-4 border-b-4 border-black hover:border-blue-500 rounded">More accessories</button>  
+      </Link>
 
       <div id="myModal" className={usedisplay ? "" : "hidden" + " overflow-auto"}>
         <div className="">
@@ -32,6 +37,7 @@ function Details() {
                 <button
                   className="border-2 px-10 py-2 rounded-full bg-cyan-600 text-slate-300 hover:text-zinc-900 hover:bg-white transition-transform">
                   CONTINUE WITH GOOGLE </button>
+                  
               </div>
             </div>
           </div>
