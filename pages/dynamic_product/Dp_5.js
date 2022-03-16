@@ -18,7 +18,7 @@ function Dp_5() {
       
       <div className='flex'>
       <div>
-        <img className="object-center p-10 pt-24 " src="https://m.media-amazon.com/images/I/51zb2RLO-hS.jpg" alt="Girl in a jacket" width="500" height="600"></img>
+        <image className="object-center p-10 pt-24 " src="https://m.media-amazon.com/images/I/51zb2RLO-hS.jpg" alt="Girl in a jacket" width="500" height="600"></image>
 
       </div>
 
