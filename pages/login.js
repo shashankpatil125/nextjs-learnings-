@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function login() {
@@ -23,6 +24,11 @@ function login() {
                 <button
                     className="border-2 px-10 py-2 rounded-full bg-cyan-600 text-slate-300 hover:text-zinc-900 hover:bg-white transition-transform">
                     CONTINUE WITH GOOGLE </button>
+                    <Link href="/">
+                    <button
+                    className="border-2 px-10 py-2 rounded-full bg-zinc-900 mt-3 text-slate-300 hover:text-zinc-900 hover:bg-white transition-transform">
+                    RETURN TO HOME </button>
+                    </Link>
             </div>
         </div>
     </div>
