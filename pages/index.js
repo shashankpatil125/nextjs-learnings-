@@ -4,7 +4,7 @@ import Script from 'next/script'
 
 import styles from '../styles/Home.module.css'
 import Navbar from './components/Navbar'
-import Image from './components/Image'
+import Image from './components/Images'
 import Title_Info from './components/Title_Info'
 import Scorebord from './components/Scorebord'
 import Detail from './components/Details'
