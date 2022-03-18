@@ -6,17 +6,21 @@ function Scorebord() {
   return (
 
     <div className="">
-      <p className=" ml-36 pr-2 mt-6 pt-3 text-zinc-500 ">SCORE</p>
+      <p className="mr-6 md:ml-36 sm:ml-18 ml-6  pr-2 mt-6 pt-3 text-zinc-500 ">SCORE</p>
       <br />
-      <div className="flex ml-32">
+      <div className="flex  mr-6 md:ml-32 sm:ml-18 ml-6">
         <span className="iconify h-12 w-12" data-icon="openmoji:atom-bomb"></span>
-        <p className="pt-3 font-medium text-xl">KILLS</p>
+        <p className=" pt-3 font-medium text-xl">KILLS</p>
       </div>
 
-      <div className=" transition delay-150 duration-300 ease-in-out box-border border-2 border-gray-300 ml-36 w-5/12 mt-5 rounded-xl  hover:shadow-xl hover:bg-white">
-        <div className="mt-2">
-          <span className="ml-6 mr-4 mt-4 font-medium text-xl">History</span>
-          <span className="cursor-pointer text-right ml-80 mt-4">see all</span>
+      <div className="mr-6 md:ml-36 sm:ml-18 ml-6        sm:ml-18 md:w-5/12 transition delay-150 duration-300 ease-in-out box-border border-2 border-gray-300 mt-5 rounded-xl  hover:shadow-xl hover:bg-white">
+        <div className="mt-2 flex">
+        <div>
+          <p className="ml-6 mr-4 mt-4 font-medium text-xl">History</p>
+          </div>
+          <div className="text-right flex-1  ">
+          <p className="cursor-pointer  mr-4 mt-4">see all</p>
+          </div>
         </div>
 
 

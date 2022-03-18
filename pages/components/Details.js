@@ -14,13 +14,15 @@ function Details() {
   return (
     <div className="  bg-slate-300 p-6">
 
-      <button onClick={enterd} className=" text-right my-2 bg-neutral-900 hover:bg-neutral-700 text-white font-bold py-2 px-4 border-b-4 border-black hover:border-blue-500 rounded">More accessories</button>
+      <div className='lg:text-left sm:text-center text-center'>
+      <button onClick={enterd} className=" my-2 bg-neutral-900 hover:bg-neutral-700 text-white font-bold py-2 px-4 border-b-4 border-black hover:border-blue-500 rounded">More accessories</button>
       <Link href="/productdetails">
-        <button className=" text-right my-2 bg-neutral-900 hover:bg-neutral-700 text-white font-bold ml-4 py-2 px-4 border-b-4 border-black hover:border-blue-500 rounded">Best seller</button>
+        <button className=" my-2 bg-neutral-900 hover:bg-neutral-700 text-white font-bold ml-4 py-2 px-4 border-b-4 border-black hover:border-blue-500 rounded">Best seller</button>
       </Link>
+      </div>
 
       <div id="myModal" className={usedisplay ? "" : "hidden" + " overflow-auto"}>
-        <div className='flex mt-6'>
+        <div className='flex mt-6 overflow-scroll '>
           <div className='w-56'>
             <img className="  p-4  h-56 w-56 bg-white rounded-xl" src="https://m.media-amazon.com/images/I/71wLsMcxA7L._SX679_.jpg" alt="Girl in a jacket" width="500" height="600"></img>
             <p className='text-gray-700'>VOYEE WE-07P Wireless PC Controller, Game Controller for PC PS3 PS2 Dualshock Joystick for Laptop PC Gaming, Wireless PC Gamepad (Red)</p>

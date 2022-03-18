@@ -7,12 +7,12 @@ import P_info from './product_component/P_info'
 import P_navbar from './product_component/P_navbar'
 function ProductDetails() {
   return (
-    <div className='bg-white'>
-    <div className='bg-white'>
+    <div className=''>
+    <div className=' lg:flex  md:flex sm:flex-1 text-center'>
     
 
       <P_navbar/>
-      <div className='flex'>
+      <div className='  lg:flex  md:flex sm:flex-1 text-center'>
       <P_image/>
       <P_info/>
       </div>
