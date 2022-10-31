@@ -104,7 +104,7 @@ function Navbar() {
 
         <div className='flex-1'>
           <li className="mr-3 lg:mr-6 text-right ">
-            <Link href="/login">
+            <Link href="/Login">
               <button onClick={enterd} className=" my-2 bg-neutral-800 hover:bg-neutral-700 text-white font-bold py-2 px-4 border-b-4  border-black hover:border-blue-500 rounded">LOG IN</button>
             </Link>
           </li>
