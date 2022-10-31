@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 
-function login() {
+function Login() {
 
     const [lid, setlid] = useState('');
     const [pwd, setpwd] = useState('');
@@ -59,4 +59,4 @@ function login() {
     )
 }
 
-export default login
+export default Login
